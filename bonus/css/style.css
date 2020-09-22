@@ -1,0 +1,103 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/legno.jpg);
+  background-size: cover;
+}
+#box-primary {
+  width: 900px;
+  margin: 20px auto;
+}
+/* intestazione */
+header {
+  background-color: white;
+  padding: 10px;
+  color: white;
+  height: 300px;
+}
+#sfondo-header {
+  background-image: url(../img/sfondo-header.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 100%;
+}
+#patina {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#bordo {
+  padding: 0 8px;
+  border: 5px solid white;
+}
+.titolo-header {
+  margin-bottom: 30px;
+  padding-top: 122px;
+
+}
+/* navigatore */
+nav {
+  background: gray;
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+}
+.testo-nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 12px;
+}
+.testo-nav a:hover {
+  color: blue;
+}
+/* corpo centrale */
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.sx, .cx {
+  background: white;
+  padding: 10px;
+}
+.sx, .dx {
+  width: 20%;
+}
+.colonna {
+  float: left;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+.cx {
+  margin: 20px 2%;
+  width: 56%
+}
+.dx section {
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* footer */
+footer {
+  background: white;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
+}
+.testo-footer {
+  border-bottom: 1px solid gray;
+  color: lightgray;
+}
+.icone-footer img {
+  width: 20px;
+  margin: 0 50px;
+}
+.icone-footer {
+  line-height: 50px;
+  height: 50px;
+}

@@ -1,23 +1,41 @@
 * {
-  margin: 5px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+#box-primary {
+  margin: 20px;
+}
+main:after {
+  content "";
+  display: table;
+  clear: both;
 }
 header {
   background: yellow;
   height: 250px;
+  margin-bottom: 10px;
 }
-.sezione {
+#sezione-sx {
+  height: 300px;
+}
+aside {
+  float: left;
+  width: 18%;
+}
+section {
   background: #F9B7FF;
+  margin-bottom: 10px;
   /* debug */
-  width: 200px;
   height: 200px;
 }
 article {
+  margin: 0 2%;
+  float: left;
   background: purple;
+  width: 60%;
   /* debug */
-  width: 300px;
-  height: 400px;
+  height:600px;
 }
 footer {
   background:	#77BFC7;

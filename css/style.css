@@ -7,7 +7,7 @@
   margin: 20px;
 }
 main:after {
-  content "";
+  content: "";
   display: table;
   clear: both;
 }
@@ -38,6 +38,7 @@ article {
   height:600px;
 }
 footer {
+  margin-top: 10px;
   background:	#77BFC7;
   height: 80px;
 }
